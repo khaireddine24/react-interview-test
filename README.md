@@ -1,8 +1,79 @@
-# React + Vite
+# React Interview 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This interview test is a movie listing app built with **React**, **Vite**, **TailwindCSS**, and **Redux**. The app features a responsive design, dynamic filtering, a YouTube-style like/dislike ratio gauge, and pagination.
 
-Currently, two official plugins are available:
+## Task :
++Display movies in cards with:
+  -The title in bold.
+  -The category.
+  -A YouTube-style gauge showing the like/dislike ratio.
+  -Cards should be displayed side by side and responsive. When the window is resized, cards should shift to the next line.
+  -Add a delete button on the cards to remove them.
+  -Add a toggle like/dislike button.
+  -Add a filter by category (multi-select), where categories are dynamically retrieved from the movies. If all movies in a category are deleted, the category should no longer appear.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
++Add pagination with the following features:
+  -Previous/Next buttons.
+  -Option to choose the number of items per page (4, 8, or 12).
+
+## Features  
+
+### 🎥 Movie Cards
+- **Title in bold**, category, and a like/dislike ratio gauge styled like YouTube.  
+- Responsive design: Cards adjust to fit the screen width and wrap to the next line if needed.  
+
+### 🗑️ Delete Movies
+- Remove movies from the list by clicking the delete button on the card.  
+
+### 👍/👎 Toggle Like/Dislike
+- Each card has a button to toggle between liking and disliking a movie.  
+
+### 🏷️ Filter by Category
+- Categories are dynamically retrieved from the available movies.  
+- Use a multi-select dropdown to filter movies by categories.  
+- Categories with no movies automatically disappear from the filter options.  
+
+### 📄 Pagination
+- Navigate between pages with previous/next buttons.  
+- Choose the number of movies to display per page (4, 8, or 12).  
+
+## Tech Stack  
+- **React**: For building the user interface.  
+- **Vite**: For fast development and build.  
+- **TailwindCSS**: For styling the app with modern utility-first CSS.  
+- **Redux**: For managing the application state.  
+
+## Installation  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/react-movie-cards-app.git
+   cd react-interview
+   
+2. Install dependencies:
+   npm i
+
+3. Start the development server:
+   npm run dev
+
+4. Open the app in your browser:
+   http://localhost:5173
+
+## Functionality Details
+Dynamic Movie List
+Movies are displayed dynamically in responsive cards, showing the title, category, and a YouTube-style like/dislike ratio gauge.
+
+-Filters
++The category filter dynamically fetches categories from the movies.
++Supports multi-select filtering.
+-Pagination
++Users can choose the number of items displayed per page (4, 8, or 12).
++Includes "Previous" and "Next" buttons for navigation.
+-Delete Movies
++Removes movies from the list.
++Automatically updates filters and pagination when movies are deleted.
+
+## screenshot
+<img src='https://github.com/user-attachments/assets/95b36b51-8584-4ccf-9003-322dd2ec1d1f'/>
+
+
