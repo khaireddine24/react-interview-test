@@ -12,7 +12,7 @@ This interview test is a movie listing app built with **React**, **Vite**, **Tai
   -Add a toggle like/dislike button.<br/>
   -Add a filter by category (multi-select), where categories are dynamically retrieved from the movies. If all movies in a category are deleted, the category should no longer appear.<br/>
 
-+Add pagination with the following features:<br/>
++Add pagination with the following features:<br/><br/>
   -Previous/Next buttons.<br/>
   -Option to choose the number of items per page (4, 8, or 12).<br/>
 
