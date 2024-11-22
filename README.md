@@ -47,7 +47,7 @@ This interview test is a movie listing app built with **React**, **Vite**, **Tai
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/react-movie-cards-app.git
+   git clone https://github.com/khaireddine24/react-interview-test.git
    cd react-interview
    
 2. Install dependencies:
