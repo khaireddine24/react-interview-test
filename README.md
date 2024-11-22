@@ -3,7 +3,7 @@
 This interview test is a movie listing app built with **React**, **Vite**, **TailwindCSS**, and **Redux**. The app features a responsive design, dynamic filtering, a YouTube-style like/dislike ratio gauge, and pagination.
 
 ## Task :
-+Display movies in cards with: <br/>
++Display movies in cards with: <br/><br/>
   -The title in bold.<br/>
   -The category.<br/>
   -A YouTube-style gauge showing the like/dislike ratio.<br/>
