@@ -63,15 +63,15 @@ This interview test is a movie listing app built with **React**, **Vite**, **Tai
 Dynamic Movie List
 Movies are displayed dynamically in responsive cards, showing the title, category, and a YouTube-style like/dislike ratio gauge.
 
--Filters
-+The category filter dynamically fetches categories from the movies.
-+Supports multi-select filtering.
--Pagination
-+Users can choose the number of items displayed per page (4, 8, or 12).
-+Includes "Previous" and "Next" buttons for navigation.
--Delete Movies
-+Removes movies from the list.
-+Automatically updates filters and pagination when movies are deleted.
+-Filters: <br/>
++The category filter dynamically fetches categories from the movies.<br/>
++Supports multi-select filtering.<br/>
+-Pagination: <br/>
++Users can choose the number of items displayed per page (4, 8, or 12).<br/>
++Includes "Previous" and "Next" buttons for navigation.<br/>
+-Delete Movies: <br/>
++Removes movies from the list.<br/>
++Automatically updates filters and pagination when movies are deleted.<br/>
 
 ## screenshot
 <img src='https://github.com/user-attachments/assets/95b36b51-8584-4ccf-9003-322dd2ec1d1f'/>
