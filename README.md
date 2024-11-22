@@ -3,18 +3,18 @@
 This interview test is a movie listing app built with **React**, **Vite**, **TailwindCSS**, and **Redux**. The app features a responsive design, dynamic filtering, a YouTube-style like/dislike ratio gauge, and pagination.
 
 ## Task :
-+Display movies in cards with:
-  -The title in bold.
-  -The category.
-  -A YouTube-style gauge showing the like/dislike ratio.
-  -Cards should be displayed side by side and responsive. When the window is resized, cards should shift to the next line.
-  -Add a delete button on the cards to remove them.
-  -Add a toggle like/dislike button.
-  -Add a filter by category (multi-select), where categories are dynamically retrieved from the movies. If all movies in a category are deleted, the category should no longer appear.
++Display movies in cards with: <br/>
+  -The title in bold.<br/>
+  -The category.<br/>
+  -A YouTube-style gauge showing the like/dislike ratio.<br/>
+  -Cards should be displayed side by side and responsive. When the window is resized, cards should shift to the next line.<br/>
+  -Add a delete button on the cards to remove them.<br/>
+  -Add a toggle like/dislike button.<br/>
+  -Add a filter by category (multi-select), where categories are dynamically retrieved from the movies. If all movies in a category are deleted, the category should no longer appear.<br/>
 
-+Add pagination with the following features:
-  -Previous/Next buttons.
-  -Option to choose the number of items per page (4, 8, or 12).
++Add pagination with the following features:<br/>
+  -Previous/Next buttons.<br/>
+  -Option to choose the number of items per page (4, 8, or 12).<br/>
 
 ## Features  
 
